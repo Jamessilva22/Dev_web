@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+    background-color: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.card{
+    background-color:rgb(222, 255, 255);
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 1px 0px #00000070;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(70, 70, 70);
+}
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid #00000070;
+    background-color:rgb(194, 255, 252);
+    border-radius: 5%;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid blue;
+}
+.label-float label{
+    pointer-events: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    transition: all .3s ease-out;
+
+}
+.label-float input:focus + label{
+    font-size: 12px;
+    margin-top: 0;
+    color: blue
+}
+button{
+    background-color: transparent;
+    border-color: aqua;
+    color: rgb(88, 88, 88);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+button:hover{
+    background-color: rgb(139, 218, 218);
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+}
+p{
+    color: black;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: all .8s ease-out;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
